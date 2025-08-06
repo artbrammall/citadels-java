@@ -51,7 +51,7 @@ java -jar build/libs/citadels.jar
 
 > 🎯 This will launch a fully playable text-based game in your terminal.
 
-> `![Game Start](screenshots/game-start.png)`
+> ![Game Start](screenshots/game-start.png)
 
 ---
 
@@ -83,7 +83,7 @@ java -jar build/libs/citadels.jar
     - Logic cleanly separated by package
     - Easy to extend with new characters, decks, or rules
 
-> `![Gameplay](screenshots/midgame1.png)`
+> ![Gameplay](screenshots/midgame1.png)
 
 ---
 
@@ -103,7 +103,7 @@ java -jar build/libs/citadels.jar
 | `debug`          | Toggle AI hand visibility                                  |
 | `end`            | End your turn                                              |
 
-> `![Gameplay](screenshots/midgame2.png)`
+> ![Gameplay](screenshots/midgame2.png)
 
 ---
 
@@ -133,7 +133,7 @@ Generate code coverage report:
 HTML report generated in:  
 `build/reports/jacoco/test/html/index.html`
 
-> `![Coverage Report](screenshots/coverage.png)`
+> ![Coverage Report](screenshots/coverage.png)
 
 ---
 
