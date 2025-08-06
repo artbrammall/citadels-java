@@ -14,7 +14,7 @@ Citadels is a strategic city-building game where players take on secret roles an
 - District powers (purple cards) implemented with extensible logic
 - AI makes intelligent decisions using all of its available powers
 
-> `![Original Game Reference](screenshots/original-citadels.jpg)`
+> ![Original Game Reference](screenshots/original-citadels.jpg)
 
 ---
 
