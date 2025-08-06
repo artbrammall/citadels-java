@@ -51,7 +51,7 @@ jar {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 	archiveFileName = "citadels.jar"
     manifest {
-        attributes 'Main-Class': 'citadels.App'
+        attributes 'Main-Class': 'citadels.app.App'
     }
     from {
         configurations.runtimeClasspath.findAll { it.name.endsWith('jar') }.collect { zipTree(it) }

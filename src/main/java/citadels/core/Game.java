@@ -285,7 +285,7 @@ public class Game {
 
     /**
      * Removes character cards face-up based on number of players.
-     * 4 players = 2 face up; 5 players = 1 face up; 6–7 players = 0.
+     * 4 players = 2 face up; 5 players = 1 face up; 6-7 players = 0.
      */
     void discardFaceUpCards() {
         discardedCharacterCardsFaceUp.clear();
@@ -650,7 +650,7 @@ public class Game {
         if (character == null) {
             return "No character chosen.";
         }
-        return character.getName() + " – " + character.getAbilityDescription();
+        return character.getName() + " - " + character.getAbilityDescription();
     }
 
     /**

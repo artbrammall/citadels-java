@@ -821,7 +821,7 @@ public class InputHandler {
         // Search for a matching character by name (case-insensitive)
         for (CharacterCard c : characters) {
             if (c.getName().toLowerCase().equals(nameLower)) {
-                System.out.println(c.getTurnOrder() + ". " + c.getName() + " – " + c.getAbilityDescription());
+                System.out.println(c.getTurnOrder() + ". " + c.getName() + " - " + c.getAbilityDescription());
                 return;
             }
         }

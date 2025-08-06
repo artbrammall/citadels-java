@@ -7,13 +7,13 @@ package citadels.model;
 public class CharacterCard {
     private final String name;                  // Name of the character
     private final String abilityDescription;    // Describes the character's special ability
-    private int turnOrder;                // Determines when this character takes their turn (1–8)
+    private int turnOrder;                // Determines when this character takes their turn (1-8)
 
     /**
      * Creates a new CharacterCard with the specified name, turn order, and ability description.
      *
      * @param name               Name of the character (e.g. "King")
-     * @param turnOrder          The order this character takes their turn (1–8)
+     * @param turnOrder          The order this character takes their turn (1-8)
      * @param abilityDescription Text describing the character’s special power
      */
     public CharacterCard(String name, int turnOrder, String abilityDescription) {
@@ -30,7 +30,7 @@ public class CharacterCard {
     }
 
     /**
-     * @return The turn order (1–8) for this character
+     * @return The turn order (1-8) for this character
      */
     public int getTurnOrder() {
         return turnOrder;
@@ -60,7 +60,7 @@ public class CharacterCard {
         // Only include the ability description in the string if it's not null or empty
         String result = turnOrder + ". " + name;
         if (abilityDescription != null && !abilityDescription.isEmpty()) {
-            result += " – " + abilityDescription;
+            result += " - " + abilityDescription;
         }
         return result;
     }

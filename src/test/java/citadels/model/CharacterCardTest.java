@@ -138,7 +138,7 @@ public class CharacterCardTest {
      */
     @Test
     void testToString_ReturnsExpectedFormat() {
-        assertEquals("1. Assassin – Kill another character.", assassin.toString());
+        assertEquals("1. Assassin - Kill another character.", assassin.toString());
     }
 
     /**
