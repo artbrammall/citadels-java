@@ -1,10 +1,3 @@
-/**
- * INFO1110 - Assignment 2 - Citadels
- * Student ID: 480377018
- * <p>
- * I acknowledge the use of generative AI tools (ChatGPT) to assist with generating test scaffolds,
- * debugging, and writing some Javadoc comments.
- */
 package citadels.app;
 
 import citadels.core.Game;
